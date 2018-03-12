@@ -1,2 +1,7 @@
-# Politics-and-Information
-Politics and Information Class
+# Master of R - 邱老
+
+# 目標是成為中山政研所的"Master of R"
+
+# 邱老之野望-第四階段
+
+# 現在開始往本所史上最強邁進
