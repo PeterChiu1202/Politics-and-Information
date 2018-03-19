@@ -1,0 +1,20 @@
+---
+title: "Week 2 HW"
+author: "Peter Chiu"
+date: "2018/3/19"
+output: html_document
+---
+
+### 使用Jsonlite抓取"新北市消防局報案API"
+```{r Use jsonlite}
+library(jsonlite)
+url <- "http://ha2.tw/ntpcfd/api/%5Bjson%7Cgeojson%5D"
+res <- fromJSON(url)
+```
+
+### 匯出
+```{r}
+res
+```
+
+
