@@ -1,0 +1,36 @@
+---
+title: "Week 3"
+author: "Peter Chiu"
+date: "2018/3/26"
+output: html_document
+---
+
+##  使用內建資料"cars"
+```{r}
+#cars
+
+library(ggplot2)
+
+ggplot(data = cars, aes(x = speed, y = dist)) + geom_point() + geom_line()
+
+ggplot(data = cars, aes(x = speed)) +  geom_bar(fill = "blue", colour = "black")
+
+```
+
+
+## 改用內建資料"mtcars"
+```{r}
+# mtcars
+
+library(ggplot2)
+
+ggplot(data = mtcars, aes(x = hp, y = wt)) + geom_point() + geom_line()
+
+ggplot(data = mtcars, aes(x = cyl)) +  geom_bar(fill = "yellow", colour = "red")
+
+```
+
+## *今天在爬蟲的部分狀態不好，無法進入狀況，我會找時間多加練習。*
+
+### 既已發下豪語要成為中山政研所的"Master of R"，就應該投入更多努力。
+
